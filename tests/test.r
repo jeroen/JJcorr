@@ -1,5 +1,5 @@
 #require:
-library(JJcor);
+library(JJcorr);
 data(table4);
 data(table6);
 

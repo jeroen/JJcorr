@@ -1,0 +1,14 @@
+#importFrom("adapt", adapt) 
+#importFrom("mvtnorm", pmvnorm)
+
+export("PC","spearmanR","empPC","boot","multiPC","GF","corrMatrix")
+
+S3method(boot, PC)
+S3method(boot, empPC)
+S3method(boot, spearmanR)
+
+S3method(print, PC)
+S3method(print, GF)
+S3method(print, PCBoot)
+S3method(print, empBoot)
+S3method(print, multiPC)
